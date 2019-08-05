@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Grayvee",
+  "version": "1.0.1",
+
+  "author": "Toby Dux",
+  "homepage_url": "https://www.tobydux.com",
+  
+  "icons": {
+    "16": "greyvee-16.png",
+    "48": "greyvee-48.png"
+  },
+
+  "description": "Make Pages Grey Again",
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {}
+}
